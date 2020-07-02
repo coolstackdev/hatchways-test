@@ -1,8 +1,11 @@
-# PatientOnboarding
+# Hatchways Test
 
 ## Build Setup
 
 ```bash
+# install env
+$ cp .env.example .env
+
 # install dependencies
 $ yarn install
 
