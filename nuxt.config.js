@@ -4,11 +4,7 @@ export default {
   mode: 'spa',
   target: 'static',
   env: {
-    PVERIFY_BASE_URL: process.env.PVERIFY_BASE_URL,
-    PVERIFY_TOKEN_URL: process.env.PVERIFY_TOKEN_URL,
-    PVERIFY_CLIENT_ID: process.env.PVERIFY_CLIENT_ID,
-    PVERIFY_CLIENT_SECRET: process.env.PVERIFY_CLIENT_SECRET,
-    PVERIFY_GRANT_TYPE: process.env.PVERIFY_GRANT_TYPE
+    API_URL: process.env.API_URL
   },
   head: {
     title: process.env.npm_package_name || '',

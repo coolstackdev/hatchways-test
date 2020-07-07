@@ -57,7 +57,7 @@ export default {
     }
   },
   async created () {
-    const response = await this.$axios.$get(process.env.API_URL)
+    const response = await this.$axios.$get(process.env.API_URL || 'https://www.hatchways.io/api/assessment/students')
     this.$store.commit('setStudents', response.students)
     this.isLoaded = true
   }

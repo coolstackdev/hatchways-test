@@ -1,5 +1,5 @@
 <template>
-  <div class=" relative flex border-b border-gray-200 p-6">
+  <div class="relative flex border-b border-gray-200 p-6">
     <div class="w-1/5 pt-3">
       <img :src="student.pic" class="rounded-full border border-gray-400 w-full" alt="avatar">
     </div>
